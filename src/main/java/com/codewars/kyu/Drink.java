@@ -2,9 +2,11 @@ package com.codewars.kyu;
 
 import java.util.regex.*;
 
-public class Drink {
 
+public class Drink {
+	
 	public static String hydrate(String drinkString) {
+		System.out.println("Remote");
 		Pattern pattern = Pattern.compile("(\\d+)");
 		Matcher matcher = null;
 		int sum = 0;
